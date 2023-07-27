@@ -1,0 +1,21 @@
+.Pagination {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.Pagination__item {
+    cursor: pointer;
+}
+
+.Pagination__arrow {
+    cursor: pointer;
+}
+
+.Pagination__active {
+    color: red;
+}
+
+.Pagination__disabled {
+    color: rgba(0, 0, 0, 0.5);
+}

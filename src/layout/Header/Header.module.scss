@@ -1,0 +1,33 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.MenuItem {
+    color: #fff;
+    text-decoration: none;
+
+    &.MenuItemActive {
+        color: #000;
+    }
+}
+
+.Menu {
+    .MenuItem {
+        color: #000;
+
+        &.MenuItemActive {
+            color: #1c1a8c;
+            font-weight: 600;
+        }
+    }
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+}
